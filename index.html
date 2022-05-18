@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheld 1</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background: #87CEEB;
+        }
+        #canvas {
+            background: #87CEEB;
+            position: relative;
+            display: block;
+            margin-top: 0;
+            padding-top: 20px;
+        }
+        #gamecanvas {
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <canvas id="canvas"></canvas>
+    <canvas id="gamecanvas">
+        <script src="./node_modules/pixi.js/dist/browser/pixi.min.js"></script>
+    <script type="text/javascript" src="health-bar.js"></script>
+    <script src="./app.js"></script>
+    </canvas>
+</div>
+</body>
+</html>
